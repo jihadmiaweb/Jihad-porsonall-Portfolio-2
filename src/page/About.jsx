@@ -109,7 +109,9 @@ const About = () => {
               viewport={{ amount: 0.4 }}
               className="lg:hidden -top-1 -right-5 btn btn-lg border-0 bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] rounded-full shadow-md shadow-[#00bf8f]/40 text-sm whitespace-nowrap transition-all duration-300 flex items-center gap-2 text-white"
             >
-              My CV
+              <a href="https://drive.google.com/file/d/1si05AqtKEpk1wYNshPIgAuASA2zK4dUk/view?usp=drive_link">
+                My CV
+              </a>
               <LuDownload className="text-lg" />
             </motion.a>
           </div>
