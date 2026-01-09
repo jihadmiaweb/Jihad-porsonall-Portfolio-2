@@ -24,7 +24,7 @@ const Contacts = () => {
   const contactInfo = [
     {
       icon: <RiWhatsappFill size={23} />,
-      text: "+880 1893331201",
+      text: "+880 1040386783",
       link: "",
     },
     {
@@ -117,8 +117,8 @@ const Contacts = () => {
                 onFocus={() => setFocusedField("name")}
                 onBlur={() => setFocusedField(null)}
                 className={`w-full pl-12 pr-4 py-3 bg-gray-900 border rounded-lg text-white placeholder:text-gray-500 focus:outline-none transition-all duration-300 ${focusedField === "name"
-                    ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
-                    : "border-gray-700"
+                  ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
+                  : "border-gray-700"
                   }`}
               />
             </div>
@@ -142,8 +142,8 @@ const Contacts = () => {
                 onFocus={() => setFocusedField("email")}
                 onBlur={() => setFocusedField(null)}
                 className={`w-full pl-12 pr-4 py-3 bg-gray-900 border rounded-lg text-white placeholder:text-gray-500 focus:outline-none transition-all duration-300 ${focusedField === "email"
-                    ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
-                    : "border-gray-700"
+                  ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
+                  : "border-gray-700"
                   }`}
               />
             </div>
@@ -162,8 +162,8 @@ const Contacts = () => {
               onFocus={() => setFocusedField("message")}
               onBlur={() => setFocusedField(null)}
               className={`w-full px-4 py-3 bg-gray-900 border rounded-lg text-white placeholder:text-gray-500 focus:outline-none resize-none transition-all duration-300 ${focusedField === "message"
-                  ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
-                  : "border-gray-700"
+                ? "border-[#00bf8f] shadow-lg shadow-[#00bf8f]/20"
+                : "border-gray-700"
                 }`}
             ></textarea>
           </div>

@@ -12,7 +12,7 @@ const aboutData = [
   {
     title: "Programming Journey",
     description:
-      "My programming journey began after I got admitted to honors. Though I started as a fresher, I was lucky to have guidance from my brother. What started as curiosity soon became passion, I enjoy crafting clean UI and learning something new.",
+      "My programming journey began after I completed my SSC. Though I started as a fresher, I was lucky to have guidance from my brother. What started as curiosity soon turned into a passion. I enjoy crafting clean UI and learning something new.",
     icon: <MdComputer size={25} />,
   },
   {

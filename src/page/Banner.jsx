@@ -149,7 +149,7 @@ const Banner = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] rounded-full blur-3xl opacity-10 animate-pulse -z-10" />
 
         <img
-          src={bannerImg || "https://i.ibb.co.com/yKJ4N7v/Profile.jpg"}
+          src={bannerImg || "Profile.jpg"}
           alt="Elora"
           className="rounded-full object-cover"
         />
