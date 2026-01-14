@@ -24,7 +24,7 @@ const Contacts = () => {
   const contactInfo = [
     {
       icon: <RiWhatsappFill size={23} />,
-      text: "+880 1040386783",
+      text: "+880 1940386783",
       link: "",
     },
     {

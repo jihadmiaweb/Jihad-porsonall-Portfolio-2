@@ -81,11 +81,10 @@ const Skills = () => {
           <button
             key={category}
             onClick={() => setActiveCategory(category)}
-            className={`px-6 py-2 cursor-pointer rounded-full font-medium transition-all duration-300 ${
-              activeCategory === category
-                ? "bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] text-white shadow-lg shadow-[#00bf8f]/40"
-                : "bg-gray-800 text-secondary hover:bg-gray-700 hover:text-white"
-            }`}
+            className={`px-6 py-2 cursor-pointer rounded-full font-medium transition-all duration-300 ${activeCategory === category
+              ? "bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] text-white shadow-lg shadow-[#00bf8f]/40"
+              : "bg-gray-800 text-secondary hover:bg-gray-700 hover:text-white"
+              }`}
           >
             {category}
           </button>
