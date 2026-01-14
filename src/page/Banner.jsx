@@ -10,17 +10,17 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const socials = [
   {
-    href: "https://www.linkedin.com/public-profile/settings",
+    href: "https://www.linkedin.com/in/jihad-mia-aa97a1395/",
     icon: FaLinkedin,
     size: 25,
   },
   {
-    href: "https://www.facebook.com/share/17Fh6kiZNN/",
+    href: "https://www.facebook.com/profile.php?id=61582888187110",
     icon: FaFacebook,
     size: 25,
   },
   {
-    href: "https://github.com/ab-azim",
+    href: "https://github.com/jihadmiaweb",
     icon: BsGithub,
     size: 25,
   },

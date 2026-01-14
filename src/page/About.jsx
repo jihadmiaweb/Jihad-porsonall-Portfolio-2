@@ -46,7 +46,9 @@ const About = () => {
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             className="absolute -top-1 -right-5 btn btn-lg border-0 bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] rounded-full shadow-md shadow-[#00bf8f]/40 text-sm whitespace-nowrap transition-all duration-300 flex items-center gap-2 text-white"
           >
-            My CV
+            <a href="https://drive.google.com/file/d/1BubCIPQCMCEXeu0W27ZBeuvPCFix_0sN/view?usp=sharing">
+              My CV
+            </a>
             <LuDownload className="text-lg" />
           </motion.a>
           <div className="bg-gray-700 rounded-4xl rounded-tl-[80px] p-3 shadow-lg shadow-[#00bf8f]/40">
